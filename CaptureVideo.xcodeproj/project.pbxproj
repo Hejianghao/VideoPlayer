@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5551E5F1C86ACE700538DF4 /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5551E5E1C86ACE700538DF4 /* VideoTableViewController.m */; };
+		C5551E621C86AD2400538DF4 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5551E611C86AD2400538DF4 /* VideoTableViewCell.m */; };
+		C5551E641C86E90A00538DF4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5551E631C86E90A00538DF4 /* MediaPlayer.framework */; };
+		C5551E661C86EAD000538DF4 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5551E651C86EAD000538DF4 /* AVKit.framework */; };
+		C5551E6A1C86ED6D00538DF4 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5551E691C86ED6D00538DF4 /* video4.mp4 */; };
+		C5551E6C1C86F5BA00538DF4 /* IMG_1311.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C5551E6B1C86F5BA00538DF4 /* IMG_1311.m4v */; };
+		C55A7AEF1C87FCD0001188E9 /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A7AEE1C87FCD0001188E9 /* VideoPlayerView.m */; };
+		C55A7AF21C87FF2D001188E9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A7AF11C87FF2D001188E9 /* UIView+Frame.m */; };
 		C57777121C844EC8007777F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57777111C844EC8007777F4 /* main.m */; };
 		C57777151C844EC8007777F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57777141C844EC8007777F4 /* AppDelegate.m */; };
 		C57777181C844EC8007777F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57777171C844EC8007777F4 /* ViewController.m */; };
 		C577771B1C844EC8007777F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57777191C844EC8007777F4 /* Main.storyboard */; };
 		C577771D1C844EC8007777F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C577771C1C844EC8007777F4 /* Assets.xcassets */; };
 		C57777201C844EC8007777F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C577771E1C844EC8007777F4 /* LaunchScreen.storyboard */; };
+		C57DB5791C894E4A0022DCBF /* TLMoviePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57DB5781C894E4A0022DCBF /* TLMoviePlayerController.m */; };
+		C57DB57C1C894FBA0022DCBF /* TLVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57DB57B1C894FBA0022DCBF /* TLVideoPlayerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5551E5D1C86ACE700538DF4 /* VideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewController.h; sourceTree = "<group>"; };
+		C5551E5E1C86ACE700538DF4 /* VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
+		C5551E601C86AD2400538DF4 /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
+		C5551E611C86AD2400538DF4 /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
+		C5551E631C86E90A00538DF4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C5551E651C86EAD000538DF4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		C5551E691C86ED6D00538DF4 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		C5551E6B1C86F5BA00538DF4 /* IMG_1311.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_1311.m4v; sourceTree = "<group>"; };
+		C55A7AED1C87FCD0001188E9 /* VideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerView.h; sourceTree = "<group>"; };
+		C55A7AEE1C87FCD0001188E9 /* VideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerView.m; sourceTree = "<group>"; };
+		C55A7AF01C87FF2D001188E9 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C55A7AF11C87FF2D001188E9 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		C577770D1C844EC8007777F4 /* CaptureVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57777111C844EC8007777F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C57777131C844EC8007777F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +48,10 @@
 		C577771C1C844EC8007777F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C577771F1C844EC8007777F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C57777211C844EC8007777F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57DB5771C894E4A0022DCBF /* TLMoviePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMoviePlayerController.h; sourceTree = "<group>"; };
+		C57DB5781C894E4A0022DCBF /* TLMoviePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMoviePlayerController.m; sourceTree = "<group>"; };
+		C57DB57A1C894FBA0022DCBF /* TLVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLVideoPlayerController.h; sourceTree = "<group>"; };
+		C57DB57B1C894FBA0022DCBF /* TLVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLVideoPlayerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5551E661C86EAD000538DF4 /* AVKit.framework in Frameworks */,
+				C5551E641C86E90A00538DF4 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +70,8 @@
 		C57777041C844EC8007777F4 = {
 			isa = PBXGroup;
 			children = (
+				C5551E651C86EAD000538DF4 /* AVKit.framework */,
+				C5551E631C86E90A00538DF4 /* MediaPlayer.framework */,
 				C577770F1C844EC8007777F4 /* CaptureVideo */,
 				C577770E1C844EC8007777F4 /* Products */,
 			);
@@ -58,6 +88,10 @@
 		C577770F1C844EC8007777F4 /* CaptureVideo */ = {
 			isa = PBXGroup;
 			children = (
+				C5551E691C86ED6D00538DF4 /* video4.mp4 */,
+				C5551E6B1C86F5BA00538DF4 /* IMG_1311.m4v */,
+				C55A7AF01C87FF2D001188E9 /* UIView+Frame.h */,
+				C55A7AF11C87FF2D001188E9 /* UIView+Frame.m */,
 				C57777131C844EC8007777F4 /* AppDelegate.h */,
 				C57777141C844EC8007777F4 /* AppDelegate.m */,
 				C57777161C844EC8007777F4 /* ViewController.h */,
@@ -67,6 +101,16 @@
 				C577771E1C844EC8007777F4 /* LaunchScreen.storyboard */,
 				C57777211C844EC8007777F4 /* Info.plist */,
 				C57777101C844EC8007777F4 /* Supporting Files */,
+				C5551E5D1C86ACE700538DF4 /* VideoTableViewController.h */,
+				C5551E5E1C86ACE700538DF4 /* VideoTableViewController.m */,
+				C5551E601C86AD2400538DF4 /* VideoTableViewCell.h */,
+				C5551E611C86AD2400538DF4 /* VideoTableViewCell.m */,
+				C55A7AED1C87FCD0001188E9 /* VideoPlayerView.h */,
+				C55A7AEE1C87FCD0001188E9 /* VideoPlayerView.m */,
+				C57DB5771C894E4A0022DCBF /* TLMoviePlayerController.h */,
+				C57DB5781C894E4A0022DCBF /* TLMoviePlayerController.m */,
+				C57DB57A1C894FBA0022DCBF /* TLVideoPlayerController.h */,
+				C57DB57B1C894FBA0022DCBF /* TLVideoPlayerController.m */,
 			);
 			path = CaptureVideo;
 			sourceTree = "<group>";
@@ -136,6 +180,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5551E6C1C86F5BA00538DF4 /* IMG_1311.m4v in Resources */,
+				C5551E6A1C86ED6D00538DF4 /* video4.mp4 in Resources */,
 				C57777201C844EC8007777F4 /* LaunchScreen.storyboard in Resources */,
 				C577771D1C844EC8007777F4 /* Assets.xcassets in Resources */,
 				C577771B1C844EC8007777F4 /* Main.storyboard in Resources */,
@@ -149,9 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57DB57C1C894FBA0022DCBF /* TLVideoPlayerController.m in Sources */,
+				C5551E621C86AD2400538DF4 /* VideoTableViewCell.m in Sources */,
 				C57777181C844EC8007777F4 /* ViewController.m in Sources */,
 				C57777151C844EC8007777F4 /* AppDelegate.m in Sources */,
+				C55A7AF21C87FF2D001188E9 /* UIView+Frame.m in Sources */,
 				C57777121C844EC8007777F4 /* main.m in Sources */,
+				C57DB5791C894E4A0022DCBF /* TLMoviePlayerController.m in Sources */,
+				C5551E5F1C86ACE700538DF4 /* VideoTableViewController.m in Sources */,
+				C55A7AEF1C87FCD0001188E9 /* VideoPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CaptureVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thel.webp.CaptureVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CaptureVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thel.webp.CaptureVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +354,7 @@
 				C57777261C844EC8007777F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
