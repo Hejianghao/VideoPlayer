@@ -13,6 +13,26 @@
 		C5551E661C86EAD000538DF4 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5551E651C86EAD000538DF4 /* AVKit.framework */; };
 		C5551E6A1C86ED6D00538DF4 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5551E691C86ED6D00538DF4 /* video4.mp4 */; };
 		C5551E6C1C86F5BA00538DF4 /* IMG_1311.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C5551E6B1C86F5BA00538DF4 /* IMG_1311.m4v */; };
+		C555C16E1C8D3FB200BEAF63 /* ALAirplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C555C1561C8D3FB200BEAF63 /* ALAirplayView.m */; };
+		C555C16F1C8D3FB200BEAF63 /* ALButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C555C1581C8D3FB200BEAF63 /* ALButton.m */; };
+		C555C1701C8D3FB200BEAF63 /* ALMoviePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C555C15A1C8D3FB200BEAF63 /* ALMoviePlayerController.m */; };
+		C555C1711C8D3FB200BEAF63 /* ALMoviePlayerControls.m in Sources */ = {isa = PBXBuildFile; fileRef = C555C15C1C8D3FB200BEAF63 /* ALMoviePlayerControls.m */; };
+		C555C1721C8D3FB200BEAF63 /* movieBackward.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C15E1C8D3FB200BEAF63 /* movieBackward.png */; };
+		C555C1731C8D3FB200BEAF63 /* movieBackward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C15F1C8D3FB200BEAF63 /* movieBackward@2x.png */; };
+		C555C1741C8D3FB200BEAF63 /* movieBackwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1601C8D3FB200BEAF63 /* movieBackwardSelected.png */; };
+		C555C1751C8D3FB200BEAF63 /* movieBackwardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1611C8D3FB200BEAF63 /* movieBackwardSelected@2x.png */; };
+		C555C1761C8D3FB200BEAF63 /* movieEndFullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1621C8D3FB200BEAF63 /* movieEndFullscreen.png */; };
+		C555C1771C8D3FB200BEAF63 /* movieEndFullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1631C8D3FB200BEAF63 /* movieEndFullscreen@2x.png */; };
+		C555C1781C8D3FB200BEAF63 /* movieForward.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1641C8D3FB200BEAF63 /* movieForward.png */; };
+		C555C1791C8D3FB200BEAF63 /* movieForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1651C8D3FB200BEAF63 /* movieForward@2x.png */; };
+		C555C17A1C8D3FB200BEAF63 /* movieForwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1661C8D3FB200BEAF63 /* movieForwardSelected.png */; };
+		C555C17B1C8D3FB200BEAF63 /* movieForwardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1671C8D3FB200BEAF63 /* movieForwardSelected@2x.png */; };
+		C555C17C1C8D3FB200BEAF63 /* movieFullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1681C8D3FB200BEAF63 /* movieFullscreen.png */; };
+		C555C17D1C8D3FB200BEAF63 /* movieFullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C1691C8D3FB200BEAF63 /* movieFullscreen@2x.png */; };
+		C555C17E1C8D3FB200BEAF63 /* moviePause.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C16A1C8D3FB200BEAF63 /* moviePause.png */; };
+		C555C17F1C8D3FB200BEAF63 /* moviePause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C16B1C8D3FB200BEAF63 /* moviePause@2x.png */; };
+		C555C1801C8D3FB200BEAF63 /* moviePlay.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C16C1C8D3FB200BEAF63 /* moviePlay.png */; };
+		C555C1811C8D3FB200BEAF63 /* moviePlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C555C16D1C8D3FB200BEAF63 /* moviePlay@2x.png */; };
 		C55A7AEF1C87FCD0001188E9 /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A7AEE1C87FCD0001188E9 /* VideoPlayerView.m */; };
 		C55A7AF21C87FF2D001188E9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A7AF11C87FF2D001188E9 /* UIView+Frame.m */; };
 		C57777121C844EC8007777F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57777111C844EC8007777F4 /* main.m */; };
@@ -34,6 +54,30 @@
 		C5551E651C86EAD000538DF4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		C5551E691C86ED6D00538DF4 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
 		C5551E6B1C86F5BA00538DF4 /* IMG_1311.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_1311.m4v; sourceTree = "<group>"; };
+		C555C1551C8D3FB200BEAF63 /* ALAirplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAirplayView.h; sourceTree = "<group>"; };
+		C555C1561C8D3FB200BEAF63 /* ALAirplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAirplayView.m; sourceTree = "<group>"; };
+		C555C1571C8D3FB200BEAF63 /* ALButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALButton.h; sourceTree = "<group>"; };
+		C555C1581C8D3FB200BEAF63 /* ALButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALButton.m; sourceTree = "<group>"; };
+		C555C1591C8D3FB200BEAF63 /* ALMoviePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMoviePlayerController.h; sourceTree = "<group>"; };
+		C555C15A1C8D3FB200BEAF63 /* ALMoviePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMoviePlayerController.m; sourceTree = "<group>"; };
+		C555C15B1C8D3FB200BEAF63 /* ALMoviePlayerControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMoviePlayerControls.h; sourceTree = "<group>"; };
+		C555C15C1C8D3FB200BEAF63 /* ALMoviePlayerControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMoviePlayerControls.m; sourceTree = "<group>"; };
+		C555C15E1C8D3FB200BEAF63 /* movieBackward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieBackward.png; sourceTree = "<group>"; };
+		C555C15F1C8D3FB200BEAF63 /* movieBackward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieBackward@2x.png"; sourceTree = "<group>"; };
+		C555C1601C8D3FB200BEAF63 /* movieBackwardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieBackwardSelected.png; sourceTree = "<group>"; };
+		C555C1611C8D3FB200BEAF63 /* movieBackwardSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieBackwardSelected@2x.png"; sourceTree = "<group>"; };
+		C555C1621C8D3FB200BEAF63 /* movieEndFullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieEndFullscreen.png; sourceTree = "<group>"; };
+		C555C1631C8D3FB200BEAF63 /* movieEndFullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieEndFullscreen@2x.png"; sourceTree = "<group>"; };
+		C555C1641C8D3FB200BEAF63 /* movieForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieForward.png; sourceTree = "<group>"; };
+		C555C1651C8D3FB200BEAF63 /* movieForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieForward@2x.png"; sourceTree = "<group>"; };
+		C555C1661C8D3FB200BEAF63 /* movieForwardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieForwardSelected.png; sourceTree = "<group>"; };
+		C555C1671C8D3FB200BEAF63 /* movieForwardSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieForwardSelected@2x.png"; sourceTree = "<group>"; };
+		C555C1681C8D3FB200BEAF63 /* movieFullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieFullscreen.png; sourceTree = "<group>"; };
+		C555C1691C8D3FB200BEAF63 /* movieFullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieFullscreen@2x.png"; sourceTree = "<group>"; };
+		C555C16A1C8D3FB200BEAF63 /* moviePause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviePause.png; sourceTree = "<group>"; };
+		C555C16B1C8D3FB200BEAF63 /* moviePause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviePause@2x.png"; sourceTree = "<group>"; };
+		C555C16C1C8D3FB200BEAF63 /* moviePlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviePlay.png; sourceTree = "<group>"; };
+		C555C16D1C8D3FB200BEAF63 /* moviePlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviePlay@2x.png"; sourceTree = "<group>"; };
 		C55A7AED1C87FCD0001188E9 /* VideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerView.h; sourceTree = "<group>"; };
 		C55A7AEE1C87FCD0001188E9 /* VideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerView.m; sourceTree = "<group>"; };
 		C55A7AF01C87FF2D001188E9 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
@@ -67,6 +111,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C555C1541C8D3FB200BEAF63 /* ALMoviePlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				C555C1551C8D3FB200BEAF63 /* ALAirplayView.h */,
+				C555C1561C8D3FB200BEAF63 /* ALAirplayView.m */,
+				C555C1571C8D3FB200BEAF63 /* ALButton.h */,
+				C555C1581C8D3FB200BEAF63 /* ALButton.m */,
+				C555C1591C8D3FB200BEAF63 /* ALMoviePlayerController.h */,
+				C555C15A1C8D3FB200BEAF63 /* ALMoviePlayerController.m */,
+				C555C15B1C8D3FB200BEAF63 /* ALMoviePlayerControls.h */,
+				C555C15C1C8D3FB200BEAF63 /* ALMoviePlayerControls.m */,
+				C555C15D1C8D3FB200BEAF63 /* Images */,
+			);
+			path = ALMoviePlayerController;
+			sourceTree = "<group>";
+		};
+		C555C15D1C8D3FB200BEAF63 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C555C15E1C8D3FB200BEAF63 /* movieBackward.png */,
+				C555C15F1C8D3FB200BEAF63 /* movieBackward@2x.png */,
+				C555C1601C8D3FB200BEAF63 /* movieBackwardSelected.png */,
+				C555C1611C8D3FB200BEAF63 /* movieBackwardSelected@2x.png */,
+				C555C1621C8D3FB200BEAF63 /* movieEndFullscreen.png */,
+				C555C1631C8D3FB200BEAF63 /* movieEndFullscreen@2x.png */,
+				C555C1641C8D3FB200BEAF63 /* movieForward.png */,
+				C555C1651C8D3FB200BEAF63 /* movieForward@2x.png */,
+				C555C1661C8D3FB200BEAF63 /* movieForwardSelected.png */,
+				C555C1671C8D3FB200BEAF63 /* movieForwardSelected@2x.png */,
+				C555C1681C8D3FB200BEAF63 /* movieFullscreen.png */,
+				C555C1691C8D3FB200BEAF63 /* movieFullscreen@2x.png */,
+				C555C16A1C8D3FB200BEAF63 /* moviePause.png */,
+				C555C16B1C8D3FB200BEAF63 /* moviePause@2x.png */,
+				C555C16C1C8D3FB200BEAF63 /* moviePlay.png */,
+				C555C16D1C8D3FB200BEAF63 /* moviePlay@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		C57777041C844EC8007777F4 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +171,7 @@
 		C577770F1C844EC8007777F4 /* CaptureVideo */ = {
 			isa = PBXGroup;
 			children = (
+				C555C1541C8D3FB200BEAF63 /* ALMoviePlayerController */,
 				C5551E691C86ED6D00538DF4 /* video4.mp4 */,
 				C5551E6B1C86F5BA00538DF4 /* IMG_1311.m4v */,
 				C55A7AF01C87FF2D001188E9 /* UIView+Frame.h */,
@@ -180,11 +264,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C555C1781C8D3FB200BEAF63 /* movieForward.png in Resources */,
+				C555C17B1C8D3FB200BEAF63 /* movieForwardSelected@2x.png in Resources */,
+				C555C1801C8D3FB200BEAF63 /* moviePlay.png in Resources */,
 				C5551E6C1C86F5BA00538DF4 /* IMG_1311.m4v in Resources */,
+				C555C17D1C8D3FB200BEAF63 /* movieFullscreen@2x.png in Resources */,
+				C555C17F1C8D3FB200BEAF63 /* moviePause@2x.png in Resources */,
 				C5551E6A1C86ED6D00538DF4 /* video4.mp4 in Resources */,
+				C555C1811C8D3FB200BEAF63 /* moviePlay@2x.png in Resources */,
+				C555C17A1C8D3FB200BEAF63 /* movieForwardSelected.png in Resources */,
 				C57777201C844EC8007777F4 /* LaunchScreen.storyboard in Resources */,
+				C555C1761C8D3FB200BEAF63 /* movieEndFullscreen.png in Resources */,
+				C555C1731C8D3FB200BEAF63 /* movieBackward@2x.png in Resources */,
+				C555C1791C8D3FB200BEAF63 /* movieForward@2x.png in Resources */,
+				C555C17C1C8D3FB200BEAF63 /* movieFullscreen.png in Resources */,
+				C555C1741C8D3FB200BEAF63 /* movieBackwardSelected.png in Resources */,
+				C555C1721C8D3FB200BEAF63 /* movieBackward.png in Resources */,
+				C555C1751C8D3FB200BEAF63 /* movieBackwardSelected@2x.png in Resources */,
 				C577771D1C844EC8007777F4 /* Assets.xcassets in Resources */,
+				C555C17E1C8D3FB200BEAF63 /* moviePause.png in Resources */,
 				C577771B1C844EC8007777F4 /* Main.storyboard in Resources */,
+				C555C1771C8D3FB200BEAF63 /* movieEndFullscreen@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C555C16F1C8D3FB200BEAF63 /* ALButton.m in Sources */,
+				C555C1711C8D3FB200BEAF63 /* ALMoviePlayerControls.m in Sources */,
+				C555C16E1C8D3FB200BEAF63 /* ALAirplayView.m in Sources */,
 				C57DB57C1C894FBA0022DCBF /* TLVideoPlayerController.m in Sources */,
 				C5551E621C86AD2400538DF4 /* VideoTableViewCell.m in Sources */,
 				C57777181C844EC8007777F4 /* ViewController.m in Sources */,
@@ -203,6 +306,7 @@
 				C57777121C844EC8007777F4 /* main.m in Sources */,
 				C57DB5791C894E4A0022DCBF /* TLMoviePlayerController.m in Sources */,
 				C5551E5F1C86ACE700538DF4 /* VideoTableViewController.m in Sources */,
+				C555C1701C8D3FB200BEAF63 /* ALMoviePlayerController.m in Sources */,
 				C55A7AEF1C87FCD0001188E9 /* VideoPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

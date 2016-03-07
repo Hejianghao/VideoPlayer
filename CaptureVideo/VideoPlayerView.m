@@ -15,7 +15,9 @@ typedef enum {
     FullScreen
 }ScreenType;
 
-@interface VideoPlayerView ()
+@interface VideoPlayerView (){
+    CGRect originFrame;
+}
 
 @property (nonatomic, strong) MPMoviePlayerController *player;
 
@@ -149,13 +151,29 @@ typedef enum {
 //        self.frame = CGRectMake(0, 0, 320, 480);
 //    }];
     if (_player.playbackState == MPMoviePlaybackStateStopped || _player.playbackState == MPMoviePlaybackStatePaused) {
-        [_coverView setHidden:YES];
+//        [_coverView setHidden:YES];
         _player.contentURL = [NSURL URLWithString:@"http://wsqncdn.miaopai.com/stream/wAlnu4iufewbgwRIGf4s0g__.mp4?yx=&refer=weibo_app"];
         [_player play];
+        NSLog(@"__loadState:%d",_player.loadState);
+        originFrame = _player.view.frame;
+        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
+            
+            CGRect newFrame = CGRectMake(-20, -100, 100, 100);
+            [_player.view setFrame:newFrame];
+            
+        } completion:^(BOOL finished) {
+            NSLog(@"animate completed");
+        }];
 //        [_player setFullscreen:YES animated:YES];
     } else if (_player.playbackState == MPMoviePlaybackStatePlaying){
-        [_coverView setHidden:NO];
-        [_player pause];
+//        [_coverView setHidden:NO];
+        
+        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
+            [_player.view setFrame:CGRectMake(0, 0, 280, 280)];
+        } completion:^(BOOL finished) {
+            
+        }];
+//        [_player pause];
     }
 }
 

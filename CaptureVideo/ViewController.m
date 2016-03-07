@@ -11,6 +11,8 @@
 #import <MediaPlayer/MediaPlayer.h>
 #import "VideoPlayerView.h"
 
+#import "TLMoviePlayerController.h"
+
 @interface ViewController ()
 
 @property (nonatomic, strong) UIButton *playBtn;
@@ -18,6 +20,8 @@
 @property (nonatomic, strong) UIView *myView;
 
 @property (nonatomic, strong) VideoPlayerView *playerView;
+
+@property (nonatomic, strong) TLMoviePlayerController *moviePlayer;
 
 @end
 
@@ -35,15 +39,27 @@
     _myView = [[UIView alloc] initWithFrame:CGRectMake(20, 100, 240, 240)];
     [_myView setBackgroundColor:[UIColor redColor]];
     [self.view addSubview:_myView];
+    
 //    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"IMG_1311" ofType:@"m4v"];
 //    NSURL *url = [NSURL URLWithString:filePath];
-    
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handlePlayerLoadStateDidChange:) name:MPMoviePlayerLoadStateDidChangeNotification object:nil];
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handlePlayerPlaybackStateDidChange:) name:MPMoviePlayerPlaybackStateDidChangeNotification object:nil];
     
-    _playerView = [[VideoPlayerView alloc ]initWithFrame:CGRectMake(20, 100, 280,280)];
-    [self.view addSubview:_playerView];
+//    _playerView = [[VideoPlayerView alloc ]initWithFrame:CGRectMake(20, 100, 280,280)];
+//    [self.view addSubview:_playerView];
+    
 //    [_playerView.coverView setBackgroundColor:[UIColor blackColor]];
+//    VideoPlayerView *testVideo = [[VideoPlayerView alloc] initWithFrame:CGRectMake(20, 390, 80, 80)];
+//    [self.view addSubview:testVideo];
+    
+    _moviePlayer = [[TLMoviePlayerController alloc] initWithFrame:CGRectMake(20, 20, 280, 200)];
+    [_moviePlayer setContentURL:[NSURL URLWithString:@"http://203.166.162.84/video/relabang-s01e04-480p.mp4"]];
+    [self.view addSubview:_moviePlayer];
+    
+    TLMoviePlayerController *aMoviePlayer = [[TLMoviePlayerController alloc] initWithFrame:CGRectMake(20, 240, 280, 200)];
+    [aMoviePlayer setContentURL:[NSURL URLWithString:@"http://gslb.miaopai.com/stream/byVT434y7eChPxlw~qrHnA__.mp4?yx=&refer=weibo_app"]];
+    [self.view addSubview:aMoviePlayer];
+    
 }
 
 - (void) play {
